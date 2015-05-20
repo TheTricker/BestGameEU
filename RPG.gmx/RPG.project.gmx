@@ -24,39 +24,54 @@
     <sprites name="spr_mobs">
       <sprite>sprites\spr_enemy</sprite>
     </sprites>
-    <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\spr_wall_2</sprite>
     <sprites name="spr_attacks">
       <sprite>sprites\spr_slash</sprite>
     </sprites>
     <sprite>sprites\sprite13</sprite>
+    <sprites name="Enviroment">
+      <sprite>sprites\spr_wall_2</sprite>
+      <sprite>sprites\spr_wall</sprite>
+    </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\derp.gml</script>
+  </scripts>
+  <shaders name="shaders"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_menus</font>
+  </fonts>
   <objects name="objects">
     <objects name="Entities">
       <objects name="Characters">
         <object>objects\obj_player</object>
         <object>objects\obj_rouge</object>
-        <object>objects\obj_archer</object>
-        <object>objects\obj_mage</object>
-        <object>objects\obj_warrior</object>
-        <object>objects\obj_priest</object>
-        <object>objects\obj_paladin</object>
       </objects>
       <objects name="enemies">
         <object>objects\obj_enemy</object>
       </objects>
     </objects>
-    <object>objects\obj_godcode</object>
-    <object>objects\obj_wall</object>
-    <object>objects\obj_wall2</object>
     <objects name="attacks">
       <object>objects\obj_slash</object>
+    </objects>
+    <objects name="godcode">
+      <object>objects\obj_godcode</object>
+      <object>objects\obj_intro</object>
+    </objects>
+    <objects name="Enviroment">
+      <object>objects\obj_wall2</object>
+      <object>objects\obj_wall</object>
+    </objects>
+    <objects name="Menus">
+      <object>objects\Button</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level</room>
+    <room>rooms\rm_Intro</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
