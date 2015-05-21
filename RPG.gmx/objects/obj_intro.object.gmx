@@ -26,19 +26,29 @@
           <argument>
             <kind>1</kind>
             <string>//cria os buttões
-
+var i;
 var middlex = room_width/2;
 maxButtons = 3;
 selectedButton = 1;
 lastSButton = 1;
 
+
+
+
 Button1 = instance_create(0,0,Button);
 Button2 = instance_create(0,0,Button);
 Button3 = instance_create(0,0,Button);
 
-Buttons[1] = Button1
-Buttons[2] = Button2
-Buttons[3] = Button3
+
+
+
+Buttons[1] = Button1;
+Buttons[2] = Button2;
+Buttons[3] = Button3;
+
+
+
+
 
 with(Buttons[1]) {
     selected = true;
@@ -58,6 +68,19 @@ with(Buttons[3]) {
     y = 260 + 80; //N QUERO FAZER CONTAS DNT JUGE
     text = "Quit";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 </string>
           </argument>
         </arguments>
@@ -107,7 +130,7 @@ lastSButton = selectedButton;
 
 if(enter) {
     if(selectedButton == 1) {
-        
+        room_goto(rm_charSel);
     }
     if(selectedButton == 2) {
         
