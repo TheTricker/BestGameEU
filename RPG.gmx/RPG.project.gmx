@@ -51,7 +51,6 @@
       <sprite>sprites\spr_slash</sprite>
     </sprites>
     <sprite>sprites\sprite13</sprite>
-<<<<<<< HEAD
     <sprite>sprites\spr_camvision</sprite>
   </sprites>
   <backgrounds name="background"/>
