@@ -80,6 +80,7 @@
     <instance objName="&lt;undefined&gt;" x="-32" y="32" name="inst_4819A082" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall2" x="-32" y="32" name="inst_807E615D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall2" x="64" y="160" name="inst_D6ADCC93" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_camvision" x="320" y="384" name="inst_81147A06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

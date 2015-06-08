@@ -30,9 +30,12 @@
       <sprite>sprites\spr_slash</sprite>
     </sprites>
     <sprite>sprites\sprite13</sprite>
+    <sprite>sprites\spr_camvision</sprite>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path0</path>
+  </paths>
   <objects name="objects">
     <objects name="Entities">
       <objects name="Characters">
@@ -54,6 +57,8 @@
     <objects name="attacks">
       <object>objects\obj_slash</object>
     </objects>
+    <object>objects\obj_cam</object>
+    <object>objects\obj_camvision</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level</room>
